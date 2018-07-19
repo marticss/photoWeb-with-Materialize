@@ -1,0 +1,54 @@
+header {
+    background: url(img/4.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+}
+.transparent {
+    background-color: #56555554 !important;
+}
+@media only screen and (max-width: 600px) {
+    header {
+        min-height: 400px;
+    }
+}
+.parallax-container {
+    max-height: 25vw;
+}
+.section {
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.tabs .indicator {
+    background-color: #565555;
+}
+
+.tabs .tab a.active {
+    color: #565555;
+}
+
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+    background-color: #51505027;
+    outline: none;
+}
+
+.tabs .tab a:hover {
+    color: #565555;
+}
+
+.tabs .tab a {
+    color: #565555;
+}
+
+.datepicker-date-display {
+    background-color: #565555;
+}
+
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+    color: #565555;
+}
